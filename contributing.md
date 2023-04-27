@@ -70,6 +70,18 @@ git add .
 git commit -m "Your Changes"
 ```
 
+> If you encounter this error while commits
+>
+> ```diff
+> husky - pre-commit hook exited with code 1(error)
+> ```
+>
+> use this command
+>
+> ```diff
+> pnpm format
+> ```
+
 11. Set upstream command
 
 ```diff
